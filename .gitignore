@@ -1,4 +1,6 @@
-﻿# Python
+﻿# ================================
+# Python / Environment
+# ================================
 __pycache__/
 *.py[cod]
 *.class
@@ -6,20 +8,34 @@ __pycache__/
 .Python
 venv/
 
-# Environment
+# ================================
+# Environment variables
+# ================================
 .env
 
-# Temporary/generated files
+# ================================
+# Generated / temporary files
+# ================================
 *.json
 *.exe
 *.txt
 
-# Keep only these specific files
+# ================================
+# Explicitly tracked core files
+# ================================
 !requirements.txt
 !FINAL_VERIFICATION_CLEAN.txt
 !risk_assessment_final.json
+
 !simple_decoder.py
 !fix_chainlink.py
 !risk_scoring.py
 !minimal_listener.py
 !README.md
+
+# ================================
+# Allow output screenshots (README)
+# ================================
+!output-img/
+!output-img/*.png
+
