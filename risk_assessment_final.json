@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "assessment_time": "2026-01-22T15:09:56.697617",
+    "model_version": "v1.0-final",
+    "pipeline_phase": "3-ML-Risk-Scoring",
+    "correction": "Removed concentration component (not in description). Uses only TVL+volatility+liquidity."
+  },
+  "metrics": {
+    "total_volume_eth": 0.05322940830448896,
+    "avg_volume_eth": 0.02661470415224448,
+    "volume_std_eth": 0.0010214208477555206,
+    "volume_cv": 0.038378065069319275,
+    "swap_count": 2,
+    "time_range_minutes": 5,
+    "volume_per_minute": 0.010645881660897792
+  },
+  "risk_assessment": {
+    "risk_score": 100.0,
+    "risk_level": "HIGH",
+    "color": "\ud83d\udfe1",
+    "timestamp": "2026-01-22T15:09:56.694364",
+    "components": {
+      "tvl_contrib": 25.67,
+      "volatility_contrib": 22.98,
+      "liquidity_contrib": 51.34
+    },
+    "normalized_metrics": {
+      "volatility": 0.384,
+      "liquidity": 1.0
+    }
+  },
+  "interpretation": {
+    "low_risk": "< 30: Normal market activity",
+    "medium_risk": "30-70: Elevated monitoring recommended",
+    "high_risk": "> 70: Potential risk event",
+    "tvl_component": "TVL risk: Lower TVL \u2192 Higher systemic risk"
+  }
+}

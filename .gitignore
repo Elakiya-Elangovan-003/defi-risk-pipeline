@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+
+# Environment
+.env
+
+# Temporary/generated files
+*.json
+*.exe
+*.txt
+
+# Keep only these specific files
+!requirements.txt
+!FINAL_VERIFICATION_CLEAN.txt
+!risk_assessment_final.json
+!simple_decoder.py
+!fix_chainlink.py
+!risk_scoring.py
+!minimal_listener.py
+!README.md
